@@ -36,7 +36,7 @@ export default function(url, prev) {
 }
 
 export function isJSONfile(url) {
-  return /\.json$/.test(url);
+  return /\.js(on)?$/.test(url);
 }
 
 export function transformJSONtoSass(json) {
